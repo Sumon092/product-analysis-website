@@ -1,0 +1,38 @@
+[
+    {
+        "id": "2",
+        "name": "Kamal Hossen",
+        "rating": "3.5 Star",
+        "img": "./images/home-image.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Monir Khan",
+        "rating": "4.5 Star",
+        "img": "./images/home-image.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Shamim Hawlader",
+        "rating": "3 Star",
+        "img": "./images/home-image.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Golam Mawla",
+        "rating": "5 Star",
+        "img": "./images/home-image.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Shakib Al Hasan",
+        "rating": "4 Star",
+        "img": "./images/home-image.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Mark Twin",
+        "rating": "3.5 Star",
+        "img": "./images/home-image.jpg"
+    }
+]
