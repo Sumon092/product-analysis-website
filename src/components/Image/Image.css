@@ -1,0 +1,6 @@
+.home-image img {
+    width: 380px;
+    height: 550px;
+    /* border-radius: 5px; */
+    box-shadow: 10px 10px 50px black;
+}
