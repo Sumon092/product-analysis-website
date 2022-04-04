@@ -7,10 +7,17 @@ import './Reviews.css'
 const Reviews = () => {
     const [reviews, setReviews] = useReview();
     console.log(reviews);
+
+    const reviewHandler = () => {
+        console.log(reviewHandler);
+    }
     return (
         <div className='reviewer-container'>
             {
-                reviews.map(review => <Review key={review.id} review={review}></Review>)
+                reviews.map(review => <Review
+                    key={review.id}
+                    review={review}
+                    reviewHandler={reviewHandler}></Review>)
             }
         </div>
     );

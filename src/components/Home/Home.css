@@ -1,13 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .client-reviews-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .review-heading {

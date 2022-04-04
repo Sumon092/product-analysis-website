@@ -4,7 +4,7 @@ import './Review.css'
 const Review = (props) => {
     const { name, img, description } = props.review;
     return (
-        <div>
+        <div className='review-cart'>
             <div className="reviewer-info">
                 <div className='reviewer-image'>
                     <img src={img} alt="" />

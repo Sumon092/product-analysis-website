@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import useReview from '../../hooks/useReview';
 import Image from '../Image/Image';
 import Review from '../Review/Review';
@@ -14,7 +15,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div>
+        <div className='home-compo'>
             <div className='home-page'>
                 <div>
                     <h1 ><span className='heading'>Explore The World !!</span>  <br />Explore Yourself</h1>
@@ -31,13 +32,18 @@ const Home = () => {
             </div>
 
             <h1 className='review-heading'>Client Review {reviews.length}</h1>
-            <div className='client-reviews-container'>
+            <div className="review-section">
+                <div className='client-reviews-container'>
 
-                {
-                    reviews.map(review => <Review key={review.id} review={review}></Review>)
-                }
+                    {
+                        reviews.map(review => <Review key={review.id} review={review}></Review>)
+                    }
 
+                </div>
+
+                <Link to='/reviews'><button className='detail-button' >Show All Reviews</button></Link>
             </div>
+
         </div>
     );
 };
