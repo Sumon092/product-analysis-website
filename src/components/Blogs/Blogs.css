@@ -1,0 +1,18 @@
+.blogs {
+    max-width: 1400px;
+    background-color: rgba(235, 233, 233, 0.645);
+    margin: 0 auto;
+}
+
+.blogs h1 {
+    font-size: 3rem;
+    margin-top: 50px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.blogs p {
+    font-size: 1.3rem;
+    padding: 25px;
+    margin-top: 0;
+}

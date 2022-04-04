@@ -5,7 +5,7 @@ import useChartData from '../../hooks/useChartData';
 const Barchart = () => {
     const [charts, setCharts] = useChartData();
     return (
-        <div>
+        <div className='charts'>
             <BarChart width={730} height={250} data={charts}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="month" />
@@ -15,6 +15,7 @@ const Barchart = () => {
                 <Bar dataKey="investment" fill="#8884d8" />
                 <Bar dataKey="revenue" fill="#82ca9d" />
             </BarChart>
+            <h2>Bar Chart</h2>
         </div>
     );
 };
