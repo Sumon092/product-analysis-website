@@ -2,7 +2,8 @@ import React from 'react';
 import './Review.css'
 
 const Review = (props) => {
-    const { name, img, description } = props.review;
+    // const { reviews, reviewHandler } = props;
+    const { name, img, description, rating } = props.review;
     return (
         <div className='review-cart'>
             <div className="reviewer-info">
@@ -14,6 +15,7 @@ const Review = (props) => {
                 </div>
             </div>
             <p><small>{description}</small></p>
+            <p className='rating'><small>Rating: {rating}</small></p>
         </div>
     );
 };

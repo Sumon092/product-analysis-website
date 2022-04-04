@@ -1,9 +1,15 @@
-import React from 'react';
+import Barchart from '../Barchart/Barchart';
+import Charts from '../Charts/Charts';
+
 
 const Dashboard = () => {
     return (
         <div>
-            <h4>This is Dashboard</h4>
+
+            <Charts></Charts>
+
+            <Barchart></Barchart>
+
         </div>
     );
 };
