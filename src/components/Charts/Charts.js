@@ -5,7 +5,7 @@ import './Charts.css'
 
 const Charts = () => {
     // const { month, investment, sell, revenue } = chart;
-    const [charts, setCharts] = useChartData();
+    const [charts] = useChartData();
     return (
         <div className='charts'>
             <LineChart width={700} height={250} data={charts}

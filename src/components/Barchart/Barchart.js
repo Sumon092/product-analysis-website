@@ -3,10 +3,10 @@ import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'rec
 import useChartData from '../../hooks/useChartData';
 
 const Barchart = () => {
-    const [charts, setCharts] = useChartData();
+    const [charts] = useChartData();
     return (
         <div className='charts'>
-            <BarChart width={730} height={250} data={charts}>
+            <BarChart width={700} height={250} data={charts}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="month" />
                 <YAxis />

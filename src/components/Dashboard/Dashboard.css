@@ -1,5 +1,12 @@
+.body {
+    overflow-x: hidden;
+}
+
 .dashboard {
-    margin-top: 50px;
+    max-width: 1300;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    box-sizing: border-box;
 }

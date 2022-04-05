@@ -3,42 +3,42 @@
         "id": "2",
         "name": "Kamal Hossen",
         "rating": "3.5 Star",
-        "img": "./images/home-image.jpg",
+        "img": "./images/clientreview (1).png",
         "description": "Its a wonderful camera I have have ever seen ,its literally blowing my mind,If some one looking for a good camera,undoubtly can choose it"
     },
     {
         "id": "3",
         "name": "Monir Khan",
         "rating": "4.5 Star",
-        "img": "./images/home-image.jpg",
+        "img": "./images/clientreview (2).png",
         "description": "Awesome product by all sides,You can capture your every moment nicely by this"
     },
     {
         "id": "7",
         "name": "Shamim Hawlader",
         "rating": "3 Star",
-        "img": "./images/home-image.jpg",
+        "img": "./images/clientreview (3).png",
         "description": "I just loving its lens and looking ,excellent quality image during darkness is made this very special for any tourist like me"
     },
     {
         "id": "4",
         "name": "Golam Mawla",
         "rating": "5 Star",
-        "img": "./images/home-image.jpg",
+        "img": "./images/clientreview (4).png",
         "description": "Overall ok,but if it was metal body that would have lovely"
     },
     {
         "id": "5",
         "name": "Shakib Al Hasan",
         "rating": "4 Star",
-        "img": "./images/home-image.jpg",
+        "img": "./images/clientreview (5).png",
         "description": "Another quality product from sony,keep going my loving brand"
     },
     {
         "id": "6",
         "name": "Mark Twin",
         "rating": "3.5 Star",
-        "img": "./images/home-image.jpg",
+        "img": "./images/clientreview (6).png",
         "description": "Amazing product from Sony,battery backup just awesome"
     }
 ]

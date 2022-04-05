@@ -35,6 +35,15 @@ const Header = () => {
                     DahsBoard
                 </NavLink>
                 <NavLink
+                    to="blogs"
+                    style={({ isActive }) => ({
+                        color: isActive ? '#fff' : '#545e6f',
+                        background: isActive ? '#7600dc' : '#f0f0f0',
+                    })}
+                >
+                    Blogs
+                </NavLink>
+                <NavLink
                     to="About"
                     style={({ isActive }) => ({
                         color: isActive ? '#fff' : '#545e6f',

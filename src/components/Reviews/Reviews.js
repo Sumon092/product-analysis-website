@@ -5,11 +5,7 @@ import './Reviews.css'
 
 
 const Reviews = () => {
-    const [reviews, setReviews] = useReview();
-    console.log(reviews);
-
-
-
+    const [reviews] = useReview();
     return (
         <div className='reviewer-container'>
             {

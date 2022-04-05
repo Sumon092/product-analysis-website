@@ -7,7 +7,6 @@ import './Home.css';
 const Home = () => {
     const [images, setImages] = useState([]);
     const [reviews] = useReview();
-    console.log(reviews)
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -31,7 +30,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <h1 className='review-heading'>Client Review {reviews.length}</h1>
+            <h1 className='review-heading'>Client Review {reviews.slice(0, 3).length}</h1>
             <div className="review-section">
                 <div className='client-reviews-container'>
 

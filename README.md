@@ -1,10 +1,10 @@
 # Getting Started with Create React App
 
-The Name of Project is : [Reveal](https://gorgeous-kataifi-9738dd.netlify.app/).
+<h3>The Name of Project is</h3> : [Reveal](https://gorgeous-kataifi-9738dd.netlify.app/).
 
-<h2>Website Description</h2>
+<h3>Website Description</h3>
 <ul>
-<li>Product Promotional website</li>
+<li>You can promotion your Product by this website</li>
 <li>Client can review and add rating</li>
 <li>All kind of Graphic charts for investment and revenue</li>
 <li>Easy to use and update</li>

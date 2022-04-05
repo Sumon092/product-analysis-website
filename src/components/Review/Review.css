@@ -12,10 +12,11 @@
 .review-cart {
     margin-top: 40px;
     width: 350px;
-    height: 350px;
+    height: 360px;
     padding: 20px;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 10px 10px 40px gray;
     background-color: white;
+    border-radius: 8px;
 }
 
 .review-cart p {
