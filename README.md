@@ -1,9 +1,13 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Reveal](https://gorgeous-kataifi-9738dd.netlify.app/).
+The Name of Project is : [Reveal](https://gorgeous-kataifi-9738dd.netlify.app/).
 
+<h2>Website Description</h2>
 <ul>
 <li>Product Promotional website</li>
+<li>Client can review and add rating</li>
+<li>All kind of Graphic charts for investment and revenue</li>
+<li>Easy to use and update</li>
 </ul>
 ## Available Scripts
 
