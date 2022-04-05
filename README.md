@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Reveal](https://gorgeous-kataifi-9738dd.netlify.app/).
 
+<ul>
+<li>Product Promotional website</li>
+</ul>
 ## Available Scripts
 
 In the project directory, you can run:

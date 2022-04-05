@@ -16,7 +16,6 @@ const Header = () => {
                 >
                     Home
                 </NavLink>
-
                 <NavLink
                     to="reviews"
                     style={({ isActive }) => ({
@@ -26,7 +25,6 @@ const Header = () => {
                 >
                     Reviews
                 </NavLink>
-
                 <NavLink
                     to="dashboard"
                     style={({ isActive }) => ({
@@ -36,13 +34,6 @@ const Header = () => {
                 >
                     DahsBoard
                 </NavLink>
-
-                {/* <Link to={'/home'}>Home</Link>
-
-                <Link to={'/dashboard'}>Dashboard</Link>
-                <Link to={'/blogs'}>Blogs</Link>
-                <Link to={'/about'}>About</Link> */}
-
                 <NavLink
                     to="About"
                     style={({ isActive }) => ({
