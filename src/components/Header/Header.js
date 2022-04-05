@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
@@ -7,11 +7,51 @@ const Header = () => {
         <div className='navbar'>
             <h2>Reveal</h2>
             <div className='navigation'>
-                <Link to={'/home'}>Home</Link>
-                <Link to={'/reviews'}>Reviews</Link>
+                <NavLink
+                    to="home"
+                    style={({ isActive }) => ({
+                        color: isActive ? '#fff' : '#545e6f',
+                        background: isActive ? '#7600dc' : '#f0f0f0',
+                    })}
+                >
+                    Home
+                </NavLink>
+
+                <NavLink
+                    to="reviews"
+                    style={({ isActive }) => ({
+                        color: isActive ? '#fff' : '#545e6f',
+                        background: isActive ? '#7600dc' : '#f0f0f0',
+                    })}
+                >
+                    Reviews
+                </NavLink>
+
+                <NavLink
+                    to="dashboard"
+                    style={({ isActive }) => ({
+                        color: isActive ? '#fff' : '#545e6f',
+                        background: isActive ? '#7600dc' : '#f0f0f0',
+                    })}
+                >
+                    DahsBoard
+                </NavLink>
+
+                {/* <Link to={'/home'}>Home</Link>
+
                 <Link to={'/dashboard'}>Dashboard</Link>
                 <Link to={'/blogs'}>Blogs</Link>
-                <Link to={'/about'}>About</Link>
+                <Link to={'/about'}>About</Link> */}
+
+                <NavLink
+                    to="About"
+                    style={({ isActive }) => ({
+                        color: isActive ? '#fff' : '#545e6f',
+                        background: isActive ? '#7600dc' : '#f0f0f0',
+                    })}
+                >
+                    About
+                </NavLink>
             </div>
         </div>
 

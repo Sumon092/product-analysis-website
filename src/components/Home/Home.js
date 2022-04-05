@@ -36,7 +36,7 @@ const Home = () => {
                 <div className='client-reviews-container'>
 
                     {
-                        reviews.map(review => <Review key={review.id} review={review}></Review>)
+                        reviews.slice(0, 3).map(review => <Review key={review.id} review={review}></Review>)
                     }
 
                 </div>
